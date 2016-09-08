@@ -1,1 +1,9 @@
-This is my first txt
+git config --global user.name "tajamal42"
+git config --global user.email tajamal.azan@gmail.com
+git clone https://github.com/Tajamal42/testgit.git
+cd testgit
+git add first.txt
+git status
+git commit -m "first commit" first.txt
+git push -u origin master
+
